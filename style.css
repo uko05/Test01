@@ -54,6 +54,7 @@ body {
     transform: translateX(0); /* 左ペインを表示 */
 }
 
+
 .child-nodes {
     display: none; /* 初期状態で非表示 */
     list-style-type: none; /* リストのスタイルをなくす */
@@ -82,8 +83,8 @@ body {
     transition: background-color 0.3s;
     color: white;
     cursor: pointer;
-    font-size: 20px;
-    height: 40px;
+    font-size: 15px;
+    height: 35px;
     margin-left: 10px;
 }
 
@@ -92,11 +93,12 @@ body {
     background-color: #ffcc00; /* ホバー時の黄色 */
 }
 
-
 .parent-node {
-    padding: 10px; /* 余白を追加 */
-    cursor: pointer; /* カーソルをポインターに */
-    z-index: 1001; /* トグルボタンより前面に表示 */
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    z-index: 1001;
+    display: block; /* 要素をブロック表示にする */
 }
 
 nav ul {
